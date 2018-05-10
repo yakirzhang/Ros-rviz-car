@@ -1,0 +1,12 @@
+Current_State_1F
+pre_trained
+build/
+cmake-build-debug/
+.idea/
+build*/
+*.o
+.vscode/
+GPATH
+GRTAGS
+GTAGS
+log/
