@@ -2,7 +2,7 @@
 #include <visualization_msgs/Marker.h>
 
 int main(int argc, char** argv) {
-  ros::init(argc, argv, "basic_shapes");
+  ros::init(argc, argv, "sim");
   ros::NodeHandle n;
   ros::Rate r(1);
   ros::Publisher marker_pub =
@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     // Set the namespace and id for this marker.  This serves to create a unique
     // ID
     // Any marker sent with the same namespace and id will overwrite the old one
-    marker.ns = "basic_shapes";
+    marker.ns = "sim";
     marker.id = 0;
 
     // Set the marker type.  Initially this is CUBE, and cycles between that and

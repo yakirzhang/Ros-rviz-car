@@ -14,3 +14,10 @@ add sim.cpp in src folder
 add_executable(sim src/sim.cpp)
 target_link_libraries(sim ${catkin_LIBRARIES})
 ```
+Run
+```
+roscore  // to run master
+rosrun car_simulation sim
+rosrun rviz rviz
+//select marker
+```
