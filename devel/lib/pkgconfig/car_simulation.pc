@@ -1,0 +1,8 @@
+prefix=/home/yakirzhang/workspace/Ros-rviz-car/devel
+
+Name: car_simulation
+Description: Description of car_simulation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yakirzhang/workspace/Ros-rviz-car/devel/lib 
+Requires: 
